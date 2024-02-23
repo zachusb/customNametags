@@ -1,0 +1,11 @@
+.container {
+    border: dotted;
+}
+
+.col-6 {
+    border: blue solid;
+}
+
+canvas {
+    border: dotted;
+}
