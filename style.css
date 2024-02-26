@@ -9,3 +9,36 @@
 canvas {
     border: dotted;
 }
+
+.btn-tab {
+    font-size: 1.2rem;
+    border: solid black 2px;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: none;
+    background-color: rgba(245, 52, 52, 0);
+    color: black;
+}
+
+.btn-tab-active {
+    font-size: 1.3rem;
+    background: linear-gradient(#d1f2f7, #ffffff);
+}
+
+.color-thumbnail {
+    cursor: pointer;
+    transition: scale .5s, rotate .5s;
+}
+
+.color-thumbnail:hover{
+    scale: 1.1;
+    rotate: -2deg;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+

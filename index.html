@@ -16,8 +16,66 @@
                 
             </div>
             <div class="col-6">
-                <button>Name Tag Customization</button>
-                <button>Engraving</button>
+                <button id="customize-button" class="btn-tab btn-tab-active">Name Tag Customization</button>
+                <button id="engraving-button" class="btn-tab">Engraving</button>
+                <div id="customize-tab" class="visible">
+                    <div id="color-selection" class="py-4">
+                        <h4>Select a Color</h3>
+                    </div>
+                    <div id="backing-selection" class="py-4">
+                        <h4>Select Backing</h3>
+                    </div>
+                </div>
+                <div id="engraving-tab" class="hidden row">
+                    <div id="font-selection" class="py-4 col">
+                        <h4>Select a Font</h4>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                              Select Font
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-animate" aria-labelledby="dropdownMenuButton">
+                              <li><a class="dropdown-item" href="#">Arial</a></li>
+                              <li><a class="dropdown-item" href="#">Helvetica</a></li>
+                              <li><a class="dropdown-item" href="#">Times New Roman</a></li>
+                            </ul>
+                        </div>
+                          
+                    </div>
+                    <div id="lines-of-text" class="py-4 col">
+                        <h4>Lines of Text</h4>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="TextLinesMenu" data-bs-toggle="dropdown" aria-expanded="false">
+                              2 Lines
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-animate" aria-labelledby="TextLinesMenu">
+                              <li><a class="dropdown-item" href="#">3 Lines</a></li>
+                              <li><a class="dropdown-item" href="#">2 Lines</a></li>
+                              <li><a class="dropdown-item" href="#">1 Line</a></li>
+                            </ul>
+                        </div>
+                          
+                    </div>
+                    <div id="text-alignment" class="py-4 col">
+                        <h4>Text Alignment</h4>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="TextLinesMenu" data-bs-toggle="dropdown" aria-expanded="false">
+                              Text Alignment
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-animate" aria-labelledby="TextLinesMenu">
+                              <li><a class="dropdown-item" href="#">Center</a></li>
+                              <li><a class="dropdown-item" href="#">Left</a></li>
+                              <li><a class="dropdown-item" href="#">Right</a></li>
+                            </ul>
+                        </div>
+                          
+                    </div>
+                    <div id="text-input" class="py-4">
+                        <h4>Type Your Lines of Text</h4>
+                        <input type="text" name="Hello" id="top-line"><br>
+                        <input type="text" name="Hello" id="middle-line"><br>
+                        <input type="text" name="Hello" id="bottom-line"><br>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
